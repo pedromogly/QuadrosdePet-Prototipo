@@ -1,0 +1,331 @@
+
+@font-face {
+    font-family: oswald;
+    src:url(../font/static/Oswald-Bold.ttf)
+}
+
+body {
+    font-family: oswald;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    color: rgb(42, 47, 116);
+    box-sizing: border-box;
+}
+
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+section {
+    margin-bottom: 3%;
+}
+
+.logo {
+    width: 70%;
+}
+
+.right {
+    text-align: right;
+}
+
+.pai {
+    flex-direction: row;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.mt {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.ms {
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.mc {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.imgconfig {
+    width: 90%;
+}
+
+.spc {
+    margin-bottom: 20px;
+}
+
+.bt span {
+    
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: rgba(240, 248, 255, 0);
+    border: solid;
+    border-color: rgb(42, 47, 116);
+    color: rgb(42, 47, 116);
+    z-index: 9;
+    position: relative;
+    text-decoration: none;
+}
+
+.bt::before {
+    content: '';
+    background-color: rgba(255, 255, 255, 0);
+    border: solid;
+    border-color: rgb(219, 219, 219);
+    padding: 1px;
+    padding-left: 70px;
+    padding-right: 60px;
+    padding-bottom: 24px;
+    left: 79px;
+    position: absolute;
+    z-index: 0;
+}
+
+.bt span:hover {
+    background-color: rgb(42, 47, 116);
+    border-color: rgb(42, 47, 116);
+    color: white;
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+.bttitle span {
+    margin-top: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    z-index: 9;
+    position: relative;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.bttitle::before {
+    content: '';
+    background-color: rgba(255, 255, 255, 0);
+    border: solid;
+    border-color: rgba(219, 219, 219, 0.281);
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 210px;
+    padding-bottom: 47px;
+    left: 175px;
+    bottom: 118px;
+    position: absolute;
+    z-index: 5;
+}
+
+.medida {
+    background-color: rgb(252, 255, 73);
+    margin-top: 3px;
+}
+
+.imgsize {
+    width: 100%;
+}
+
+.bgfooter {
+    background-color: rgb(67, 67, 67);
+}
+
+.txt-white {
+    color: rgb(248, 248, 248);
+    padding: 0px;
+    margin: 0px;
+}
+
+.end {
+    padding: 10px;
+    background-color: rgb(244, 210, 23);
+    color: rgb(67, 67, 67);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.container-fluid {
+    margin: 0px;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-pet {
+    background-color: rgb(42, 47, 116);
+}
+
+.big {
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+.qsn {
+    position: relative;
+    top: 30px;
+}
+
+.medium {
+    font-size: 45px;
+}
+
+.icon {
+    width: 50%;
+}
+
+.bt-white {
+    font-size: 45px;
+    border-color: rgb(255, 255, 255);
+    border:solid;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bg-section {
+    background-color: rgb(244,244,244);
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .big {
+        font-size: 38px;
+    }
+    .medium {
+        font-size: 31px;
+    }
+    .bttitle span {
+        font-size: 30px;
+    }
+
+    .imgconfig {
+        width: 65%;
+    }
+    .icon {
+        width: 60%;
+    }
+    h4 {
+        width: 80%;
+    }
+  }
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .big {
+        font-size: 32px;
+    }
+    .medium {
+        font-size: 21px;
+    }
+    .imgconfig {
+        width: 60%;
+    }
+    .logo {
+        width: 60%;
+    }
+    .bttitle span {
+        font-size: 25px;
+    }
+    .icon {
+        width: 40%;
+    }
+    h4 {
+        width: 60%;
+    }
+
+    h4 {
+        display: flex;
+        margin-left: 47px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .big {
+        font-size: 25px;
+    }
+    .medium {
+        font-size: 20px;
+    }
+    .bttitle {
+        font-size: 13px;
+    }
+    .imgconfig {
+        width: 50%;
+    }
+    .bttitle span {
+        font-size: 18px;
+        
+    }
+    .logo {
+        width: 50%;
+    }
+    .icon {
+        width: 40%;
+    }
+
+    h4 {
+        margin-left: 22px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .logo {
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .cart-hd {
+        margin-right: 5px;
+        margin-left: 3px;
+    }  
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .bttitle::before {
+        content: '';
+        background-color: rgba(255, 255, 255, 0);
+        border: solid;
+        border-color: rgba(219, 219, 219, 0);
+        padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        left: 0px;
+        bottom: 0px;
+        position: absolute;
+        z-index: 5;
+    }
+
+    .bt::before {
+        content: '';
+        background-color: rgba(255, 255, 255, 0);
+        border: solid;
+        border-color: rgba(219, 219, 219, 0);
+        padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        left: 0px;
+        position: absolute;
+        z-index: 0;
+    }
+}
